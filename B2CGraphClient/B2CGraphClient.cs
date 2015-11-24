@@ -185,7 +185,7 @@ namespace B2CGraphShell
             
             // For B2C user managment, be sure to use the beta Graph API version.
             HttpClient http = new HttpClient();
-            string url = "https://graph.windows.net/" + tenant + api + "?" + "api-version=beta";
+            string url = "https://graph.windows.net/" + tenant + api + "?" + "api-version=1.5";
             if (!string.IsNullOrEmpty(query))
             {
                 url += "&" + query;

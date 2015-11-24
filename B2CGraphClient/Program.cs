@@ -73,6 +73,9 @@ namespace B2CGraphShell
             {
                 Console.ForegroundColor = init;
             }
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
 
         private static void GetUser(string[] args)
